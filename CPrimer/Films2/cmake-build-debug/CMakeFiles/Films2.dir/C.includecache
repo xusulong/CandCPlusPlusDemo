@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/Films2/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
