@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/filmlist/list.c
+stdio.h
+-
+stdlib.h
+-
+list.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/filmlist/list.h
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/filmlist/list.h
+stdbool.h
+-
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/filmlist/main.c
+stdio.h
+-
+stdlib.h
+-
+mem.h
+-
+list.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/filmlist/list.h
+

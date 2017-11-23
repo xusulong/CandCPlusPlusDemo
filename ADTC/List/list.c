@@ -1,26 +1,9 @@
 //
 // Created by HZWNB147 on 2017/11/21.
 //
-#include "list.h"
 #include <stdlib.h>
+#include "list.h"
 #include "fatal.h"
-struct Node
-{
-    ElementType Element;
-    Position Next;
-};
-
- List InitList()
-{
-    List L = malloc(sizeof(struct Node));
-    Position  p = malloc(sizeof(struct Node)) ;
-    p->Next=NULL;
-    p->Element=30;
-    Insert(3,L,p);
-    L->Next=p;
-    return L;
-}
-
 List
 MakeEmpty(List L)
 {
@@ -72,7 +55,8 @@ FindPrevious(ElementType X,List L)
             P = P->Next;
     return P;
 }
-void Insert(ElementType X,List L,Position P)
+/* 将指定的值插入节点P的后面 */
+void Insert(ElementType X,Position P)
 {
     Position TmpCell;
     TmpCell = malloc(sizeof(struct Node));
@@ -82,6 +66,8 @@ void Insert(ElementType X,List L,Position P)
     TmpCell->Next = P->Next;
     P->Next = TmpCell;
 }
+
+
 #if 0
 /* Incorrect DeleteList algorithm */
 void DeleteList(List L)
@@ -127,12 +113,12 @@ Retrieve(Position P)
 {
     return P->Element;
 }
-/*print list*/
+/* print list */
 void PrintList(List L)
 {
     Position P;
     P = L->Next;
-    if(IsEmpty(P))
+    if(IsEmpty(L))
         Error("The List is Empty");
     else
     {
