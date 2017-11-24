@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Queue/queue.c
+stdio.h
+-
+stdlib.h
+-
+queue.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Queue/queue.h
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Queue/queue.h
+stdbool.h
+-
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Queue/use_q.c
+stdio.h
+-
+queue.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Queue/queue.h
+

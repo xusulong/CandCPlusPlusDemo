@@ -1,0 +1,3 @@
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/MallQueue/cmake-build-debug/CMakeFiles/MallQueue.dir
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/MallQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/MallQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
