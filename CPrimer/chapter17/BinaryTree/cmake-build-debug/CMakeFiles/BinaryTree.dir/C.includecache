@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/BinaryTree/petclub.c
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+tree.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/BinaryTree/tree.h
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/BinaryTree/tree.c
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+tree.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/BinaryTree/tree.h
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/CPrimer/chapter17/BinaryTree/tree.h
+stdio.h
+-
+stdbool.h
+-
+
