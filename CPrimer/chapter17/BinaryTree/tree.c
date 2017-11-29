@@ -9,6 +9,9 @@
 #include "tree.h"
 
 /* 局部数据类型 */
+/* 该数据类型用于查找项；在AddItem(),InItem()和DeleteItem()这些函数的实现中用到
+ * 因为在删除的时候，需要知道待删除节点的父节点，以便更新父节点指向子节点的指针
+ * */
 typedef  struct pair{
  Trnode * parent;
     Trnode * child;
@@ -127,6 +130,9 @@ static void DeleteAllNodes(Trnode * root)
 		DeleteAllNodes(pright);
 	}
 }
+/*
+ * 在插入节点时，已经确保左子数的所有元素小于右子数的所有元素
+ */
 static void AddNode(Trnode * new_node,Trnode * root)
 {
 	if(ToLeft(&new_node->item,&root->item))
@@ -149,8 +155,12 @@ static void AddNode(Trnode * new_node,Trnode * root)
 		exit(1);
 	}
 }
+/* 元素i1小于元素i2时返回true */
 static bool ToLeft(const Item * i1,const Item * i2)
 {
+	/*
+	* strcmp()中的第一个参数小于第二个参数，返回负数
+	*/
 	int comp1;
 	if((comp1 = strcmp(i1->petname,i2->petname))<0)
 		return true;
@@ -159,6 +169,7 @@ static bool ToLeft(const Item * i1,const Item * i2)
 	else 
 		return false;
 }
+/* 元素i1大于i2时，返回true*/
 static bool ToRight(const Item * i1,const Item * i2)
 {
 	int comp1;
@@ -168,6 +179,7 @@ static bool ToRight(const Item * i1,const Item * i2)
 		return true;
 	else return false;
 }
+/* 根据元素的值，构造一个节点，左右节点指向NULL */
 static Trnode * MakeNode(const Item * pi)
 {
 	Trnode * new_node;
@@ -180,6 +192,9 @@ static Trnode * MakeNode(const Item * pi)
 	}
 	return new_node;
 }
+/*
+ * 在二叉树中查找元素为pi的节点，返回该节点及其父节点
+ * */
 static Pair SeekItem(const Item * pi,const Tree * ptree)
 {
 	Pair look;
@@ -205,27 +220,33 @@ static Pair SeekItem(const Item * pi,const Tree * ptree)
 	return look;/* 成功返回*/
 }
 static void DeleteNode(Trnode **ptr)
-{/* ptr 是指向目标节点的父节点指针成员的地址*/
+{/* ptr 是指向目标节点的父节点指针成员的地址，指向待删除节点 */
 	Trnode * temp;
-	if((*ptr)->left == NULL)
+	if((*ptr)->left == NULL)//*ptr指向待删除的节点的地址，并且待删除节点没有左节点
 	{
-		temp = *ptr;
-		*ptr = (*ptr)->right;
+		temp = *ptr;//将待删除节点的指针暂存下来，准备释放
+		*ptr = (*ptr)->right;//将指向父节点的子节点（待删除节点）的指针指向右子树
 		free(temp);
-	}
+	}//如果待删除节点没有左节点，那么待删除的节点指向他的右子节点即可。释放他原来指向的空间
 	else if((*ptr)->right == NULL)
 	{
 		temp = *ptr;
-		*ptr = (*ptr)->left;
+		*ptr = (*ptr)->left;//将指向父节点的子节点（待删除节点）的指针指向左子树
 		free(temp);
-	}
+	}//如果待删除节点没有右节点，那么待删除的节点指向他的左子节点即可。释放他原来指向的空间
 	else
 	{
 		for(temp = (*ptr)->left;temp->right != NULL;temp = temp->right)
 			continue;
-		temp->right = (*ptr)->right;
+        //循环完毕后，temp指向待删除节点的右枝第一个空位
+		temp->right = (*ptr)->right;//将待删除节点的右子树接上
 		temp = *ptr;
-		*ptr = (*ptr)->left;
+		*ptr = (*ptr)->left;//连接上左子树
 		free(temp);
-	}	
+	}
+	/*
+	* 如果待删除的节点同时有左右节点，
+	* 把左子树连接到被删除节点的父节点，然后沿左子树的右枝查找到第一个空位，把右子树与该空位连接
+	*/
+	
 }
