@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Chapt3/Stack/Stack.c
+stdlib.h
+-
+Stack.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Chapt3/Stack/Stack.h
+fatal.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Chapt3/Stack/fatal.h
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Chapt3/Stack/Stack.h
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Chapt3/Stack/fatal.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Chapt3/Stack/main.c
+stdio.h
+-
+Stack.h
+C:/Users/HZWNB147/CLionProjects/CandCPlusplusDemo/ADTC/Chapt3/Stack/Stack.h
+

@@ -9,15 +9,58 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a556aa72-aec2-4b65-ac55-4c97a98d19c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/BinaryTree.exe" afterPath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/BinaryTree.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/objects.a" afterPath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/objects.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/petclub.c.obj" afterPath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/petclub.c.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/tree.c.obj" afterPath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/cmake-build-debug/CMakeFiles/BinaryTree.dir/tree.c.obj" />
+    <list default="true" id="a556aa72-aec2-4b65-ac55-4c97a98d19c4" name="Default" comment="stack">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/Stack.c.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/main.c.obj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/objects.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/Stack.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/.idea/Stack.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/Stack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/Stack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeCache.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CMakeRCCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/C.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/linklibs.rsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/objects1.rsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/Stack.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/cmake.check_cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/feature_tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/Stack.cbp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/cmake-build-debug/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/fatal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADTC/Chapt3/Stack/main.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c" afterPath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.h" afterPath="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +72,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tree.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tree.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="23">
               <caret line="192" column="20" lean-forward="false" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ADTC/Chapt3/Stack/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -55,6 +108,7 @@
         <option value="$PROJECT_DIR$/ADTC/List/main.c" />
         <option value="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.h" />
         <option value="$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c" />
+        <option value="$PROJECT_DIR$/ADTC/Chapt3/Stack/main.c" />
       </list>
     </option>
   </component>
@@ -183,7 +237,9 @@
       <workItem from="1511829703820" duration="126000" />
       <workItem from="1511861474956" duration="205000" />
       <workItem from="1511915476197" duration="4373000" />
-      <workItem from="1511947255905" duration="13000" />
+      <workItem from="1511947255905" duration="674000" />
+      <workItem from="1512003394536" duration="1251000" />
+      <workItem from="1512034485005" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Add Dir CPrimer">
       <created>1511343458391</created>
@@ -220,18 +276,27 @@
       <option name="project" value="LOCAL" />
       <updated>1511915814686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="VLA and comment on b Tree">
+      <created>1511947340515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511947340515</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8929000" />
+    <option name="totallyTimeSpent" value="10977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21482602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -241,7 +306,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -261,13 +325,31 @@
     <MESSAGE value="ADT" />
     <MESSAGE value="C primer" />
     <MESSAGE value="B树,B数..." />
-    <option name="LAST_COMMIT_MESSAGE" value="B树,B数..." />
+    <MESSAGE value="VLA and comment on b Tree" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -448,8 +530,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CPrimer/chapter17/BinaryTree/tree.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="23">
           <caret line="192" column="20" lean-forward="false" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADTC/Chapt3/Stack/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding />
         </state>
       </provider>
